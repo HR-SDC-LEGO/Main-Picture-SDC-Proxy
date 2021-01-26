@@ -1,12 +1,7 @@
-const express  = require('express');
-const app = express();
-const httpProxy = require('http-proxy');
-const apiProxy = httpProxy.createProxyServer();
-const serverOne = 'http://localhost:3001';
+const server = require('./server.js');
 
-app.all("/app1/*", function(req, res) {
-    console.log('redirecting to Server1');
-    apiProxy.web(req, res, {target: serverOne});
+const PORT = 3000 || process.env.PORT;
+
+server.listen(PORT, () => {
+  console.log(`Server running on localhost:${PORT}`);
 });
-
-app.listen(3000);
