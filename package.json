@@ -1,0 +1,30 @@
+{
+  "name": "main-product-gallery-proxy",
+  "version": "1.0.0",
+  "description": "proxy for FEC componts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HR-FEC-Lego/Main-product-gallery-proxy.git"
+  },
+  "author": "Sam brandon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HR-FEC-Lego/Main-product-gallery-proxy/issues"
+  },
+  "homepage": "https://github.com/HR-FEC-Lego/Main-product-gallery-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.1",
+    "http-proxy-middleware": "^1.0.6",
+    "morgan": "^1.10.0",
+    "node": "^15.4.0",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.17.0"
+  }
+}
