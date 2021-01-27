@@ -8,5 +8,10 @@ module.exports = {
     api: '/productDescription/itemAndUser',
     url: 'http://localhost:3034',
     bundle: 'bundle.js',
+  },
+  service3: {
+    api: '/products/:id',
+    url: 'http://localhost:3003',
+    bundle: 'bundle.js',
   }
 };
