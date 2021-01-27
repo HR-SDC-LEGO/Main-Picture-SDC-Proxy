@@ -13,5 +13,11 @@ module.exports = {
     api: '/products/:id',
     url: 'http://localhost:3003',
     bundle: 'bundle.js',
+  },
+  service4: {
+    api: '/reviews',
+    // api: {window.location.pathname},
+    url: 'http://localhost:3003',
+    bundle: 'bundle.js'
   }
 };
