@@ -6,17 +6,17 @@ module.exports = {
   },
   service2: {
     api: '/productDescription/itemAndUser',
-    url: 'http://localhost:3034',
+    url: 'http://3.134.111.54:3034',
     bundle: 'bundle.js',
   },
   service3: {
     api: '/products/:id',
-    url: 'http://localhost:3003',
+    url: 'http://54.219.85.151:3003',
     bundle: 'bundle.js',
   },
   service4: {
     api: '/reviews',
-    url: 'http://localhost:3003',
+    url: 'http://54.219.85.151:3003',
     bundle: 'bundle.js'
   }
 };
